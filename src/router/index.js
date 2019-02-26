@@ -5,6 +5,7 @@ import Case from '@/views/case'
 import About from '@/views/about'
 import CaseDetail from '@/views/case-detail'
 import AdminIndex from '@/admin/views/index'
+import AdminLogin from '@/admin/views/login'
 import NotFoundComponent from '@/views/no-found'
 
 Vue.use(Router)
@@ -45,6 +46,13 @@ const router = new Router({
       component: AdminIndex,
       meta: {
         title: '咨询列表'
+      }
+    },
+    {
+      path: '/login',
+      component: AdminLogin,
+      meta: {
+        title: '登录'
       }
     },
     { path: '*',

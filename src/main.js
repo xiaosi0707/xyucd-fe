@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import './assets/css/app.css'
+import './assets/css/app.scss'
 import { nav } from './utils/nav'
 import { fixed } from './utils/fixed'
 Vue.prototype.$nav = nav
